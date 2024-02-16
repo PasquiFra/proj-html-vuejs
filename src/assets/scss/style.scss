@@ -1,0 +1,26 @@
+@use '_vars.scss' as *;
+
+body {
+    position: relative;
+    font-family: $font;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.label {
+    padding: 3px 15px;
+    background-color: white;
+    border-radius: 7px;
+    margin: 5px;
+    cursor: pointer;
+
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.label:hover {
+    color: $red;
+}
