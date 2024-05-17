@@ -10,18 +10,23 @@ export default {
 </script>
 
 <template>
+
     <LifestylesCarousel />
+
     <div class="container">
         <TopMain />
     </div>
+
     <div class="banner">
         <div class="container">
             <img src="../assets/img/page-banner-1.webp" alt="banner" class="rounded">
         </div>
     </div>
+
     <div class="container">
         <BottomMain />
     </div>
+    
     <FinalIcons />
 </template>
 
